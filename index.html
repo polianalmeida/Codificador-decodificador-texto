@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>🔐 Codificador e decodificador de texto 🔓🔑</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="container">
+
+    <header class="container-header">
+        <img src="imagens/icone-aluraoracle.png" alt="logo ONE">
+    </header>
+
+    <main class="container-main">
+        <section class="container-content">
+            <textarea class="area-text" id="main-text" cols="30" rows="10" placeholder="Digite seu texto"></textarea>
+
+            <p class="alert-text"><img src="imagens/icone.exclamacao.png" alt="imagem de alerta">Apenas letras minúsculas e sem acento</p>
+
+            <div class="button-area">
+                <button class="button btn-encrypt" id="encrypt-button" onclick="encrypt()">Criptografar</button>
+                <button class="button btn-decrypt" id="decrypt-button" onclick="decrypt()">Descriptografar</button>
+            </div>
+        </section>
+
+        <aside class="container-aside">
+            <p class="result-text hidden"></p>
+            <img class="container-aside-img" src="imagens/image.criptografia.png" alt="Imagem Criptografia">
+            <h1 class="container-title">Nenhuma mensagem encontrada</h1>
+            <p class="container-message">Digite um texto que você deseja criptografar ou descriptografar.</p>
+            <button class="button btn-copy hidden" id="encrypt-button" onclick="copyText()">Copiar</button>
+        </aside>
+    </main>
+    
+    <footer class="container-footer">
+        <section class="container-footer-social">
+            <p class="container-footer-developer">ONE - T6 | 2024 | Desenvolvido por Poliana Almeida 🖤</p>
+            <div class="footer-container-icons">
+                <a href="https://github.com/polianalmeida" target="_blank"><img class="footer-icon-linkedin" src="imagens/logo.github.png" alt="icone github"></a>
+                <a href=""></a>
+                <a href="https://www.linkedin.com/in/polianalmeida/" target="_blank"><img class="linkedin-icon" src="imagens/logo.linkedin.png" alt="icone linkedin"></a>
+            </div>
+        </section>
+    </footer>
+    
+    <script src="app.js"></script>
+</body>
+</html>
+
