@@ -1,7 +1,14 @@
 <h1>🔐 Codificador e Decodificador de Texto 🔓🔑</h1>
 
-<p>Projeto desenvolvido no curso de JavaScript da Alura.</p>
-<p1>Ao longo da construção do projeto, foi possível desenvolver uma aplicação que criptografa textos, para troca de mensagens secretas.</p>
+Bem-vindo ao projeto Codificador e Decodificador de Texto! Este é um projeto desenvolvido no curso de JavaScript da Alura, que visa simplificar o processo de codificação e decodificação de texto de uma forma moderna e amigável. Com este projeto, você pode facilmente codificar mensagens secretas, decodificar mensagens criptografadas e explorar o mundo fascinante da transformação de texto.
+
+## 📌Recursos Principais
+
+- **Codificação Rápida e Fácil**: Transforme suas mensagens em códigos com apenas alguns cliques.
+- **Decodificação Instantânea**: Desvende mensagens codificadas sem esforço.
+- **Interface Intuitiva**: Uma interface de usuário limpa e intuitiva que torna o processo de codificação e decodificação uma experiência agradável.
+
+
 
 ## 💻Tecnologias Utilizadas no Projeto:
 <div>
